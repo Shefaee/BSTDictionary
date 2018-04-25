@@ -214,7 +214,7 @@ class BST {
 
     private void preorder(BSTNode r) {
         if (r != null) {
-            System.out.print(r.getData().geten() + " ");
+            System.out.print(r.getData().geten() + "  ");
             preorder(r.getLeft());
             preorder(r.getRight());
         }
