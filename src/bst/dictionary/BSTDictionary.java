@@ -201,7 +201,7 @@ class BST {
     private void inorder(BSTNode r) {
         if (r != null) {
             inorder(r.getLeft());
-            System.out.print(r.getData().geten() + " ");
+            System.out.print(r.getData().geten() + "  ");
             inorder(r.getRight());
         }
     }
