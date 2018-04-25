@@ -201,7 +201,7 @@ class BST {
     private void inorder(BSTNode r) {
         if (r != null) {
             inorder(r.getLeft());
-            System.out.print(r.getData().geten() + "  ");
+            System.out.print(r.getData().geten() + "   ");
             inorder(r.getRight());
         }
     }
@@ -256,11 +256,11 @@ public class BSTDictionary {
             System.out.println("3. Delete");
             System.out.println("4. Show Post order ");
             System.out.println("5. Show Pre order");
-            System.out.println("6. Show In order");
+            System.out.println("6. Show In order ");
             String choice = scan.next();
             switch (choice) {
                 case "1": {
-                    System.out.println("Enter word to insert : ");
+                    System.out.println("Enter word to insert :  ");
                     String input = scan.next();
                     System.out.println("Enter translate : ");
                     String fainput = scan.next();
